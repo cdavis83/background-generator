@@ -17260,9 +17260,9 @@
 
 // //ORRRRRR
 
-var _=require('lodash')
-var array =[1,2,3,4,5,6,7,8]
-console.log('answer:',_.without(array, 3));
+var _ = require('lodash');
+var array =[1,2,3,4,5,6,7,8];
+console.log('answer:',_.without(array, 5));
 
 var css = document.querySelector("h3"); //selecting h3 which will display the code for the colors
 var color1 = document.querySelector(".color1"); //".color1" since you are selecting class="color1"
